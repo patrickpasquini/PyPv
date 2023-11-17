@@ -9,14 +9,14 @@
       <img src="https://img.shields.io/pypi/v/pypv" alt="PyPI Version">
     </a>
     <a href="https://pypi.org/project/pypv/" target="_blank">
-      <img src="https://img.shields.io/badge/Python-3.x-blue" alt="Python Version">
+      <img src="https://img.shields.io/badge/Python-3.11-blue" alt="Python Version">
     </a>
-    <a href="LINK_TO_YOUR_COVERAGE_REPORT" target="_blank">
+    <!-- <a href="LINK_TO_YOUR_COVERAGE_REPORT" target="_blank">
       <img src="https://img.shields.io/endpoint?url=URL_TO_YOUR_COVERAGE_BADGE_JSON&logo=pytest" alt="Coverage">
-    </a>
-    <a href="https://pepy.tech/project/pypv" target="_blank">
+    </a> -->
+    <!-- <a href="https://pepy.tech/project/pypv" target="_blank">
       <img src="https://static.pepy.tech/badge/pypv/month" alt="Downloads">
-    </a>
+    </a> -->
 </div>
 
 ---
