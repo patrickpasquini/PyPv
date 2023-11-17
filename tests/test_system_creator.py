@@ -25,9 +25,4 @@ def test_system_creator():
         voc_coefficient=-0.285,
         isc_coefficient=0.045,
     )
-    system_creator(
-        pv_module=pv_module,
-        pv_inverter=pv_inverter,
-        min_temperature=0,
-        max_temperature=70,
-    )
+    system_creator(pv_module=pv_module, pv_inverter=pv_inverter)

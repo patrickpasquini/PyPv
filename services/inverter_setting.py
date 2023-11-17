@@ -16,18 +16,18 @@ def available_strings_per_mppt(
     return floor(pv_inverter.max_isc / isc)
 
 
-def min_modules_per_string(
-    pv_module: PvModule, pv_inverter: PvInverter, max_temperature: float
-):
-    vmp = max_vmp_adjusted(pv_module, max_temperature)
-    return ceil(pv_inverter.mpp_min_voltage / vmp)
-
-
 def ideal_modules_quantity(
     pv_module: PvModule, pv_inverter: PvInverter, max_temperature: float
 ):
     vmp = max_vmp_adjusted(pv_module, max_temperature)
     return floor(pv_inverter.nominal_voltage / vmp)
+
+
+def min_modules_per_string(
+    pv_module: PvModule, pv_inverter: PvInverter, max_temperature: float
+):
+    vmp = max_vmp_adjusted(pv_module, max_temperature)
+    return ceil(pv_inverter.mpp_min_voltage / vmp)
 
 
 def max_modules_per_string(

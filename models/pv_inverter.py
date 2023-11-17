@@ -1,4 +1,4 @@
-from pydantic import BaseModel
+from pydantic import BaseModel, model_validator
 
 
 class PvInverter(BaseModel):
@@ -10,3 +10,8 @@ class PvInverter(BaseModel):
     mpp_max_voltage: float
     max_isc: float
     mppt_qtd: int
+    efficiency: float
+
+    @model_validator(mode="before")
+    def adjust_values(values):
+        values["efficiency"] = values["efficiency"] / 100
