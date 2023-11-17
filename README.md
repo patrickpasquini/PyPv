@@ -1,33 +1,46 @@
-# PyPv
+<div align="center">
+    <a href="https://github.com/patrickpasquini/PyPv" target="_blank">
+      <img src="./docs/assets/logo.png" alt="PyPv Logo">
+    </a>
+</div>
 
-`PyPv`: A concise tool for solar system design. It offers essential resources for sizing photovoltaic installations, fostering sustainable energy solutions. Ideal for engineers, hobbyists and developers
+<div align="center">
+    <a href="https://pypi.org/project/pypv/" target="_blank">
+      <img src="https://img.shields.io/pypi/v/pypv" alt="PyPI Version">
+    </a>
+    <a href="https://pypi.org/project/pypv/" target="_blank">
+      <img src="https://img.shields.io/badge/Python-3.x-blue" alt="Python Version">
+    </a>
+    <a href="LINK_TO_YOUR_COVERAGE_REPORT" target="_blank">
+      <img src="https://img.shields.io/endpoint?url=URL_TO_YOUR_COVERAGE_BADGE_JSON&logo=pytest" alt="Coverage">
+    </a>
+    <a href="https://pepy.tech/project/pypv" target="_blank">
+      <img src="https://static.pepy.tech/badge/pypv/month" alt="Downloads">
+    </a>
+</div>
 
-## Instalação
+---
+
+**Documentation**: <a href="https://github.com/patrickpasquini/PyPv" target="_blank">https://github.com/patrickpasquini/PyPv</a>
+
+**Source Code**: <a href="https://github.com/patrickpasquini/PyPv" target="_blank">https://github.com/patrickpasquini/PyPv</a>
+
+---
+
+**PyPv** is a modern Python library designed for simplified sizing of photovoltaic power plants. It helps in determining the most efficient way to set up strings in combination with inverters and modules, along with other functionalities that are described in the documentation.
+
+By using **PyPv**, you can effortlessly plan and optimize solar power systems, allowing for a more efficient and cost-effective setup. This library simplifies the entire process of defining and configuring photovoltaic systems and components.
+
+## Key Features
+
+- **Simplified Photovoltaic System Sizing**: Automate the calculations for sizing solar power systems.
+- **String Configuration Optimization**: Determine the best way to arrange photovoltaic strings for maximum efficiency.
+- **Inverter and Module Combination**: Find the optimal combination of inverters and modules for your solar power setup.
+- **Additional Functionalities**: Explore more features detailed in the library's documentation.
+
+## Installation
 
 You can install `PyPv` using pip:
 
 ```bash
 pip install pypv
-```
-
-## Features
-
-Photovoltaic Power Plant Sizing: Facilitate the calculation and visualization of sizing for photovoltaic systems.
-Photovoltaic String Optimization: Find the best configuration of photovoltaic module strings for maximum efficiency.
-Inverter Selection: Determine the ideal combination of photovoltaic modules and inverters.
-Performance Analysis: Assess the potential performance of your photovoltaic system.
-More detailed functionalities in the documentation.
-
-## Contributions
-
-PyPv is an open-source project, and contributions are highly welcome! If you wish to propose improvements, fix bugs, or add new features, feel free to create an issue or a pull request on the GitHub repository.
-
-## License
-
-PyPv is licensed under the MIT License.
-
-
-## Contact
-
-If you have any questions, suggestions, or comments, please contact us through GitHub.
-
