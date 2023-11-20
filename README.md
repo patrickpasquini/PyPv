@@ -14,33 +14,35 @@
     <!-- <a href="LINK_TO_YOUR_COVERAGE_REPORT" target="_blank">
       <img src="https://img.shields.io/endpoint?url=URL_TO_YOUR_COVERAGE_BADGE_JSON&logo=pytest" alt="Coverage">
     </a> -->
-    <!-- <a href="https://pepy.tech/project/pypv" target="_blank">
+    <a href="https://pepy.tech/project/pypv" target="_blank">
       <img src="https://static.pepy.tech/badge/pypv/month" alt="Downloads">
-    </a> -->
+    </a>
 </div>
 
 ---
 
-**Documentation**: <a href="https://github.com/patrickpasquini/PyPv" target="_blank">https://github.com/patrickpasquini/PyPv</a>
+**Documentation**: Building...
 
 **Source Code**: <a href="https://github.com/patrickpasquini/PyPv" target="_blank">https://github.com/patrickpasquini/PyPv</a>
 
 ---
 
-**PyPv** is a modern Python library designed for simplified sizing of photovoltaic power plants. It helps in determining the most efficient way to set up strings in combination with inverters and modules, along with other functionalities that are described in the documentation.
+## Installation
 
-By using **PyPv**, you can effortlessly plan and optimize solar power systems, allowing for a more efficient and cost-effective setup. This library simplifies the entire process of defining and configuring photovoltaic systems and components.
+You can install `pypv` using pip:
+```bash
+pip install pypv
+```
+
+## What is it?
+
+**pypv** is a state-of-the-art Python library designed to empower engineers and developers in the field of solar energy. This library simplifies the use of complex physical models, making it easier to calculate key solar parameters and optimize solar energy systems. 
 
 ## Key Features
 
-- **Simplified Photovoltaic System Sizing**: Automate the calculations for sizing solar power systems.
-- **String Configuration Optimization**: Determine the best way to arrange photovoltaic strings for maximum efficiency.
-- **Inverter and Module Combination**: Find the optimal combination of inverters and modules for your solar power setup.
-- **Additional Functionalities**: Explore more features detailed in the library's documentation.
+Building....
 
-## Installation
 
-You can install `PyPv` using pip:
+## Contributing
 
-```bash
-pip install pypv
+We warmly welcome contributions to PyPv! Whether you're fixing a bug, adding a feature, or improving documentation, your help is invaluable.
