@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="pypv",
-    version="0.2.1",
+    version="0.2.2",
     author="Patrick Pasquini",
     author_email="contatopasquini@gmail.com",
     description="pypv is a state-of-the-art Python library designed to empower engineers and developers in the field of solar energy. This library simplifies the use of complex physical models, making it easier to calculate key solar parameters and optimize solar energy systems. ",
