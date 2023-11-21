@@ -1,6 +1,6 @@
 <div align="center">
     <a href="https://github.com/patrickpasquini/PyPv" target="_blank">
-      <img src="./docs/assets/logo.png" alt="PyPv Logo">
+      <img src="https://raw.githubusercontent.com/patrickpasquini/pypv/master/docs/assets/logo.png" alt="PyPv Logo">
     </a>
 </div>
 
