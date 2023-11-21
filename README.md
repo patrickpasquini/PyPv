@@ -45,4 +45,4 @@ Building....
 
 ## Contributing
 
-We warmly welcome contributions to PyPv! Whether you're fixing a bug, adding a feature, or improving documentation, your help is invaluable.
+We warmly welcome contributions to **pypv** Whether you're fixing a bug, adding a feature, or improving documentation, your help is invaluable.
