@@ -1,0 +1,13 @@
+[
+    {            
+        "p_max": 545,
+        "vmp": 41.8,
+        "imp": 13.09,
+        "voc": 49.65,
+        "isc": 13.92,
+        "efficiency": 21.1,
+        "p_max_coefficient": -0.35,
+        "voc_coefficient": -0.27,
+        "isc_coefficient": 0.048           
+    }
+]
