@@ -6,7 +6,7 @@
 
 <div align="center">
     <a href="https://pypi.org/project/pypv/" target="_blank">
-      <img src="https://img.shields.io/pypi/v/pypv" alt="PyPI Version">
+      <img src="https://img.shields.io/pypi/v/pypv" alt="PyPv Version">
     </a>
     <a href="https://pypi.org/project/pypv/" target="_blank">
       <img src="https://img.shields.io/badge/Python-3.11-blue" alt="Python Version">
@@ -15,7 +15,7 @@
       <img src="https://img.shields.io/endpoint?url=URL_TO_YOUR_COVERAGE_BADGE_JSON&logo=pytest" alt="Coverage">
     </a> -->
     <a href="https://pepy.tech/project/pypv" target="_blank">
-      <img src="https://static.pepy.tech/badge/pypv/month" alt="Downloads">
+      <img src="https://static.pepy.tech/badge/pypv" alt="Downloads">
     </a>
 </div>
 
@@ -40,7 +40,44 @@ pip install pypv
 
 ## Key Features
 
-Building....
+Here's a simple example of how to use the `calculate_pv_system` method:
+
+```python
+from pypv import PvSystem
+
+# Config module and inverter
+pv_module = PvModule(
+    p_max=545,
+    vmp=41.8,
+    imp=13.09,
+    voc=49.65,
+    isc=13.92,
+    efficiency=21.1,
+    p_max_coefficient=-0.35,
+    voc_coefficient=-0.27,
+    isc_coefficient=0.048,
+)
+
+pv_inverter = PvInverter(
+    start_voltage=90,
+    max_voltage=600,
+    nominal_voltage=360,
+    nominal_power=5,
+    efficiency=98,
+    max_pv_power=6.5,
+    MPPTs=[
+        MPPT(min_voltage=90, max_voltage=560, isc=15, dc_inputs=1),
+        MPPT(min_voltage=90, max_voltage=560, isc=15, dc_inputs=1),
+    ],
+)
+
+# Creating an instance of PvSystem
+pv_system = PvSystem(pv_module=pv_module, pv_inverter=pv_inverter, target_power=6, max_temperature=75, min_temperature=0)
+pv_system.calculate()
+
+# Displaying the results
+PvSystem(inverter_quantity=2, ROS=0.8333333333333334, layouts=[Layout(line_quantity=2, modules_per_line=6), Layout(line_quantity=2, modules_per_line=5)])
+```
 
 
 ## Contributing
