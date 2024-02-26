@@ -40,7 +40,7 @@ pip install pypv
 
 ## Key Features
 
-Here's a simple example of how to use the `calculate_pv_system` method:
+Here's a simple example of how to use the `calculate` method:
 
 ```python
 from pypv import PvSystem
