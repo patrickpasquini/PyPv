@@ -12,7 +12,7 @@ class PvModule:
         isc_coefficient: float,
     ):
         """
-        Initialize a Photovoltaic (PV) Module object with various parameters.
+        Initialize a Photovoltaic (PV) Module object.
 
         Args:
             p_max (float): Maximum power output of the PV module.
@@ -20,20 +20,20 @@ class PvModule:
             imp (float): Current at the maximum power point (Imp) of the PV module.
             voc (float): Open-circuit voltage (Voc) of the PV module.
             isc (float): Short-circuit current (Isc) of the PV module.
-            efficiency (float): The efficiency of the PV module.
-            p_max_coefficient (float): Coefficient for adjusting maximum power (Pmax) with temperature.
-            voc_coefficient (float): Coefficient for adjusting Voc with temperature.
-            isc_coefficient (float): Coefficient for adjusting Isc with temperature.
+            efficiency (float): The efficiency of the PV module. [0-100%]
+            p_max_coefficient (float): Coefficient for adjusting maximum power (Pmax) with temperature. [0-100%]
+            voc_coefficient (float): Coefficient for adjusting Voc with temperature. [0-100%]
+            isc_coefficient (float): Coefficient for adjusting Isc with temperature. [0-100%]
         """
         self.p_max = p_max
         self.vmp = vmp
         self.imp = imp
         self.voc = voc
         self.isc = isc
-        self.efficiency = efficiency
-        self.p_max_coefficient = p_max_coefficient
-        self.voc_coefficient = voc_coefficient
-        self.isc_coefficient = isc_coefficient
+        self.efficiency = efficiency * 0.01
+        self.p_max_coefficient = p_max_coefficient * 0.01
+        self.voc_coefficient = voc_coefficient * 0.01
+        self.isc_coefficient = isc_coefficient * 0.01
 
     stc_temperature = 25
 
