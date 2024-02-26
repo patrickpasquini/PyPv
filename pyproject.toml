@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pypv"
+version = "0.2.2"
+description = "pypv is a state-of-the-art Python library designed to empower engineers and developers in the field of solar energy. This library simplifies the use of complex physical models, making it easier to calculate key solar parameters and optimize solar energy systems."
+readme = "README.md"
+authors = [
+    {name="Patrick Pasquini", email="contatopasquini@gmail.com"},
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Build Tools",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["photovoltaic, pv panel, pv inverter, mppt, pv-calculator"]
+requires-python = ">=3.11"
+
+
+[project.urls]
+"Homepage" = "https://github.com/patrickpasquini/pypv"
