@@ -1,0 +1,24 @@
+[
+    {
+        "start_voltage": 90,
+        "max_voltage": 600,
+        "nominal_voltage": 360,
+        "nominal_power": 5,
+        "efficiency": 98,
+        "max_pv_power": 6.5,
+        "MPPTs": [
+            {
+                "min_voltage": 90,
+                "max_voltage": 560,
+                "isc": 15,
+                "dc_inputs": 1
+            },
+            {
+                "min_voltage": 90,
+                "max_voltage": 560,
+                "isc": 15,
+                "dc_inputs": 1
+            }
+        ]
+    }
+]
